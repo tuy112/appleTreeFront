@@ -1,0 +1,110 @@
+/* header */
+#header {
+  background-color: #19baa4;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* main */
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.main .mainSection {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+/* todo */
+.main .todo-section {}
+.main .todo-section .todo-input {
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* user-management */
+.main .user-management-section {}
+
+/* chat */
+.main .chat-section {}
+.main .chat-section .chatMember {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 150px;
+  margin-bottom: 20px;
+  padding: 7px;
+
+  font-size: 12px;
+}
+.main .chat-section .chat-messages {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 350px;
+  margin-bottom: 20px;
+  padding: 7px;
+
+  font-size: 12px;
+}
+.main .chat-section .chat-input {
+  border: 1px solid #ccc;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.main .btn {
+  padding: 6px 11px;
+  background-color: #19baa4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.5s;
+}
+.main .btn:hover {
+  background: none;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.user-list li,
+.todo-list li,
+.chat-messages li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-management-section {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 0 10px;
+  flex: 1;
+  height: 100px;
+  min-height: 700px;
+}
+
+.main-section {
+  height: 680px;
+  position: absolute;
+  bottom: 30px;
+  width: 600px;
+  z-index: -1;
+}
